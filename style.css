@@ -68,8 +68,8 @@ body {
 
 
 .table thead {
-    background-color: #343a40; /* Kolor tła nagłówka */
-    color: white; /* Kolor tekstu nagłówka */
+    background-color: #343a40; 
+    color: white; 
 }
 
 
@@ -102,15 +102,15 @@ body {
 }
 
 .card {
-    border: none; /* Usunięcie obramowania karty */
-    border-radius: 15px; /* Zaokrąglenie rogów karty */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Cień karty */
-    transition: transform 0.2s; /* Animacja przy najechaniu myszą */
+    border: none; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s; 
     margin-bottom: 20px;
 }
 
 .card:hover {
-    transform: scale(1.02); /* Powiększenie karty przy najechaniu myszą */
+    transform: scale(1.02); 
 }
 
 .card-title {
@@ -128,18 +128,18 @@ body {
 .container {
     max-width: 800px; 
 }
-/* Styl dla pogrubionych napisów w nawigacji */
+
 .navbar-nav .nav-link {
     font-weight: bold; 
 }
-/* Styl przycisku na samym dole */
+
 #startProgress {
     background-color: green;
     color: white; 
     border-color: green; 
 }
 
-/* Styl przycisku na samym dole po najechaniu myszką */
+
 #startProgress:hover {
     background-color: darkgreen; 
     border-color: darkgreen; 
